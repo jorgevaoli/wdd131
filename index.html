@@ -1,11 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="WDD 131 - Dynamic Web Fundamentals - Jorge Valverde">
+  <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Jorge Luis Valverde Olivares- Website for educational and learning purposes only.">
+  <title>WDD 131 - Dynamic Web Fundamentals - Jorge Valverde</title>
+  <link rel="stylesheet" href="styles/base.css">
+  <script src="scripts/getdates.js" defer></script>
 </head>
+
 <body>
-    <h1>WDD 131 - Jorge Valverde</h1>
+  <header>
+    <div>
+      <h1>WDD 131 - Dynamic Web Fundamentals - <span class="color-name">Jorge Valverde</span></h1>
+    </div>
+    <nav>
+      <ul class="navigation wrap">
+        <li><a target="_blank" href="https://www.linkedin.com/in/jorgevaoli/" title="LinkedIn">LinkedIn</a></li>
+        <li><a target="_blank" href="https://byui.instructure.com/" title="I-Learn">I-Learn</a></li>
+        <li><a target="_blank" href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/10?lang=eng&id=p5#p5" title="Scripture ">Scripture</a></li>
+        <li><a target="_blank" href="#" title="Final Project">Final Project</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="card about-me">
+      <div class="card-title">
+        <h2>About Me</h2>
+      </div>
+      <div class="card-container">
+        <div class="about-item">
+          <div class="about-item-content">
+            <p>Hello everyone! My name is Jorge, and I love reading books, especially physical ones. A couple of years ago, I started reading books in English, and thanks to this, I gained self-confidence and finally decided to start my second career. This is the main reason why I am here, doing my best to achieve a bachelor's degree in Software Development.</p>
+            <img src="./images/jorge.png" alt="Personal picture">
+          </div>          
+        </div>
+
+        <div class="about-item">
+          <div class="about-item-title">
+            <h2>Lima, Perú</h2>
+          </div>
+          <div class="about-item-content">
+            <figure>
+              <img src="./images/Flag_of_Peru.png" alt="Peru's flag">
+              <figcaption>Official Flag of Perú</figcaption>
+            </figure>
+            <div>
+              <p>I am from Peru, a country known for having one of the world's finest gastronomies. And yes, of course, I am a big fan of "Pollo a la Brasa," "Lomo Saltado," and "Ceviche." Even though I can prepare these amazing dishes, I tend to be a bit slow in the kitchen, so I prefer to savor and enjoy them.</p>
+              
+            </div>
+          </div>          
+        </div>
+      </div>
+    </section>
+    <section class="card resources">
+      <div class="card-title">
+        <h2>Web Dev Resources</h2>
+      </div>
+      <div class="card-container">
+        <div class="resources-items">
+          <ul>
+            <li><a href="https://github.com/" target="_blank">Git Hub</a></li>
+            <li><a href="https://www.udemy.com/" target="_blank">Udemy</a></li>
+            <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
+            <li><a href="https://codepen.io/" target="_blank">CodePen</a></li>
+            <li><a href="https://coolors.co/" target="_blank">Coolors</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div>
+      <p>©<span id="currentyear"></span> - <span class="color-name">Jorge Valverde</span>, Perú</p>
+      <p>Last update: <span id="lastModified"></span></p>
+    </div>    
+  </footer>
 </body>
+
 </html>
