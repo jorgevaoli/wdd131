@@ -37,7 +37,7 @@
       cursor: pointer;
   }
   #menu.open::before {
-      content: "✘";
+      content: "X";
       cursor: pointer;
   }
   
@@ -108,11 +108,7 @@
       display: block;
   }
   
-  .active::before {
-    content: "➜";
-    color: var(--accent1-color);
-  }
-  
+    
   @media (min-width: 340px) {
     #menu {
       position: absolute;
